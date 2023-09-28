@@ -1,0 +1,11 @@
+function jugar(a,b){
+    if(a=="piedra" && b=="tijera" || a=="tijera" && b== "papel" || a=="papel" && b=="piedra"){
+        console.log("gana a");
+    }else if (b=="piedra" && a=="tijera" || b=="tijera" && a== "papel" || b=="papel" && a=="piedra"){
+        console.log("gana b");
+    }else if (a=="piedra" && b=="piedra" || a=="papel" && b=="papel"|| a=="tijera" && b=="tijera"){
+        console.log("empate")
+    }else{
+        var a=String()
+        var b=String()
+        console.log ("no es valido ingrese opciones correctamente")}}
